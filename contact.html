@@ -17,14 +17,6 @@
         <!-- **************  CSS  **************** -->
         <link rel="stylesheet" type="text/css" href="/stylesheet_personal.css">
 
-
-        <!-- ************** GOOGLE API **************-->
-        <script type="text/javascript" src="https://www.google.com/jsapi"></script>
-        <script type="text/javascript">
-          google.load("feeds", "1");
-        </script>
-
-
     
     </head>
     <body>
@@ -49,42 +41,31 @@
                 </div>
             </div><!-- /.container-fluid -->
         </nav>
-
-        <div id="main">
-            Hello.
-        </div>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-9">
-                    <!-- <img src="7OJPVH9EYJ.jpg" alt="Background Picture" style="width:1130px;height:528px;"> -->
-                    
-                    <div class="panel panel-default" id="statement">
-                        <p><img src="frog.png" align="left" style="width:304px;height:228px;"> 
-                        <div class="panel-body" id="about">
-                        Hi there! 
-                        <br>
-                        <br>
-                        My name is Alexandra and I'm a software engineer. I'm a recent graduate of <a href="https://hackbrightacademy.com/">Hackbright Academy</a> - an all women full-stack development bootcamp in San Francsico, CA. I like Python. A lot. And I like making data analysis visualizations. A lot. I'm also currently a graduate student at Columbia University focusing on policy, economics and data science. 
+                <div class="col-md-12">
+                    <div class="panel panel-default" id="contact_form">
+                        <form>
+                            Name:
+                            <br>
+                            <input type="text" name="name" maxlength="60">
+                            <br>
+                            E-mail:
+                            <br>
+                            <input type="email" name="email" maxlength="60">
+                            <br>
+                            Message:
+                            <br>
+                            <input type="text" name="message" maxlength="500">
+                            <br>
+                            <input type="submit" value="Send Message">
+                        </form>
 
-                        Feel free to say hi in the contact section below!
-                        </p>
-                        </div>
+
+                        <p>Figure out what kind of form I want. Easy. Have an email sent to me??
+                            Use google form from Neohack??</p>
                     </div>
-
-
-                    <div class="panel panel-default" id="blog">
-                    </div>
-                    <p> Here are words </p>
-
-                    
                 </div>
-                <div class="col-md-3" id="feeds">
-                    <h3>Twitter</h3>
-                    <a class="twitter-timeline" href="https://twitter.com/Alex_andra_P" data-widget-id="627175062815137792">Tweets by @Alex_andra_P</a>
-                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-                </div>
-
-
             </div>
         </div>
 
