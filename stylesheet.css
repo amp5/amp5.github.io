@@ -1,0 +1,47 @@
+body {
+    background-image: url("ORH3R20XHZ.jpg");
+    background-size: 100%;
+    /*make this the bacground image for only the top part. Then have a cream/grey/neutral for everything else*/
+    background-repeat: no-repeat;
+    background-color: grey;
+
+}
+#main {
+    width:100%; /* or whatever width you want. */
+    max-width:100%; /* or whatever width you want. */
+    background-color: black;
+    display: inline-block;
+
+}
+
+#skills {
+    color: white;
+    background-color: rgba(192,192,192,0.4);
+}
+
+#statement {
+    color: white;
+    background-color: rgba(192,192,192,0.4);
+}
+
+#resume {
+    color: white;
+    background-color: rgba(192,192,192,0.4);
+}
+
+#portfolio {
+    color: white;
+    background-color: rgba(192,192,192,0.4);
+}
+
+#blog {
+    color: white;
+    background-color: rgba(192,192,192,0.4);
+}
+
+#contact_form {
+    color: white;
+    background-color: rgba(192,192,192,0.4);
+}
+
+iframe[id^='twitter-widget-']{ width:100% !important;}
