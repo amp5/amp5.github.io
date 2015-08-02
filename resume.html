@@ -42,18 +42,19 @@
             </div><!-- /.container-fluid -->
         </nav>
 
-        <div id="main">
-            Hello.
-        </div>
+        
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-9">
-                    <!-- <img src="7OJPVH9EYJ.jpg" alt="Background Picture" style="width:1130px;height:528px;"> -->
-                    <div class="panel panel-default" id="resume">
-                        <p> buttons to download resume!</p>
-                        <button align="center">Download Resume</button>
-
+                    <div class="panel panel-default" id="counters">
+                        <p> Number of hours coding: 550 + [INSERT NUMBER COUNTER]</p>
                     </div>
+                    <div class="panel panel-default" id="feeds">
+                        <h3>LinkedIn</h3>
+                        <script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
+                        <script type="IN/MemberProfile" data-id="https://www.linkedin.com/in/alexandraplassaras" data-format="inline" data-related="false"></script>
+                    </div>
+
 
                     <div class="panel panel-default" id="portfolio">
                         <p>
@@ -85,53 +86,95 @@
 
 
                     <div class="panel panel-default" id="blog">
+                        Here are my blogs <- do I want my twitter feed here ar well?
+                        All social media??
                     </div>
-                    <p> Here are words </p>
+                    
+
+                  
+
 
                     
                 </div>
-                <div class="col-md-3" id="skills">
-                    <h2>Skills</h2>
-                    <div class="progress">
-                      <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-                        60%
-                      </div>
-                      <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;">
-                        20%
-                      </div>
-                      <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;">
-                        20%
-                      </div>
+                
+                
+                <div class=" col-md-3 panel panel-default" id="skills">
+                    <div class="panel panel-default" id="resume">
+                        <button align="center">Download Resume</button>
+
                     </div>
+                    <h2><span class="glyphicon glyphicon-tasks" aria-hidden="true"></span>   Skills</h2>
 
-                      <p>
-                        <ul><strong>Back-end</strong></ul>
-                            <li>Python</li>
-                            <li>SQL</li>
-                                <ul> PostgreSQL </ul>
-                                <ul> LiteSQL </ul> 
-                                <ul> SQL Alchemy </ul>
-                        <br>
-                        <br>
-                        <ul><strong>Front-end</strong></ul>
-                            <ul>Javascript</ul>
-                                <li>D3.js</li>
-                                <li>Highcharts.js</li>
-                                <li>JQUERY</li>
-                                <li></li>
-                            <ul>CSS3</ul>
-                            <ul>HTML5</ul>
-                      </p>
-                </div>
-                <div class="col-md-3" id="feeds">
-                    <h3>LinkedIn</h3>
-                    <script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
-                    <script type="IN/MemberProfile" data-id="https://www.linkedin.com/in/alexandraplassaras" data-format="hover" data-related="false" data-text="Alexandra Plassaras"></script>
+
+                    <h4>Languages</h4>
+                    <div class="row">
+                        <div class="col-md-6">Python</div>
+                        <div class="col-md-6">R</div>
+                        <div class="col-md-6">Javascript</div>
+                        <div class="col-md-6">SQL</div>
+                        <div class="col-md-6">CSS3</div>
+                        <div class="col-md-6">HTML5</div>
+                    </div>
+                    <br>
+                    <br>
+                    <h4>Frameworks, Libraries, APIs</h4>
+                    <div class="row">
+                        <div class="col-md-6">Flask</div>
+                        <div class="col-md-6">Jinja</div>
+                        <div class="col-md-6">JQuery</div>
+                        <div class="col-md-6">NumPy</div>
+                        <div class="col-md-6">Matplotlib</div>
+                        <div class="col-md-6">GeoJSON</div>
+                        <div class="col-md-6">D3.js</div>
+                        <div class="col-md-6">pandas</div>
+                        <div class="col-md-6">Bootstrap</div>
+                        <div class="col-md-6">SQLAlchemy</div>
+                        <div class="col-md-6">Twitter API</div>
+                        <div class="col-md-6">Google Maps API</div>
+                    </div>
+                    <br>
+                    <br>
+
+                    <h4> CRM/Version Control</h4>
+                    <div class="row">
+                        <div class="col-md-6">Git</div>
+                        <div class="col-md-6">JIRA</div>
+                        <div class="col-md-6">Salesforce</div>
+                        <div class="col-md-6">Zendesk</div>
+                    </div>
+                    <br>
+                    <br>
+
+                    <h4>Databases</h4>
+                    <div class="row">
+                        <div class="col-md-6">SQLite</div>
+                        <div class="col-md-6">PostgreSQL</div>
+                        <div class="col-md-6">Firebase</div>
+                    </div>
+                    <br>
+                    <br>
+
+                    <h4>Hosting Services</h4>
+                    <div class="row">
+                        <div class="col-md-6">Heroku</div>
+                        <div class="col-md-6">Firebase</div>
+                        <div class="col-md-6">Github Pages</div>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="col-md-3" id="feeds">
+                        <a class="twitter-timeline" href="https://twitter.com/Alex_andra_P" data-widget-id="627175062815137792">Tweets by @Alex_andra_P</a>
+                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                    </div>
+                      
                 </div>
 
+               
 
             </div>
         </div>
+
+
 
 
      

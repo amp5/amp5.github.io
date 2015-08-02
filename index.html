@@ -22,6 +22,11 @@
         <script type="text/javascript" src="https://www.google.com/jsapi"></script>
         <script type="text/javascript">
           google.load("feeds", "1");
+
+          // specifying feed url
+          var feed = new google.feeds.Feed("http://fastpshb.appspot.com/feed/1/fastpshb");
+
+
         </script>
 
 
@@ -51,38 +56,67 @@
         </nav>
 
         <div id="main">
-            Hello.
+            Hello. This will be my div to put some big picture in.
         </div>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-9">
+                <div class="col-md-12">
                     <!-- <img src="7OJPVH9EYJ.jpg" alt="Background Picture" style="width:1130px;height:528px;"> -->
                     
                     <div class="panel panel-default" id="statement">
-                        <p><img src="frog.png" align="left" style="width:304px;height:228px;"> 
-                        <div class="panel-body" id="about">
-                        Hi there! 
-                        <br>
-                        <br>
-                        My name is Alexandra and I'm a software engineer. I'm a recent graduate of <a href="https://hackbrightacademy.com/">Hackbright Academy</a> - an all women full-stack development bootcamp in San Francsico, CA. I like Python. A lot. And I like making data analysis visualizations. A lot. I'm also currently a graduate student at Columbia University focusing on policy, economics and data science. 
 
-                        Feel free to say hi in the contact section below!
-                        </p>
+                        
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img src="github.png" style="width:100px;heigth:100px;">
+                                    <br>
+                                    Programmer</div>
+                            <div class="col-md-3">
+                                <img src="GreatKids.png" style="width:100px;heigth:100px;">
+                                    <br>
+                                    User Researcher
+                                    <br>
+                                    <br>
+                                    <p>
+                                      Working on this product I conducted primary research, explored the
+                                      behaviors and motivations of users, and worked with teams of designers,
+                                      product managers, engineers and others to develop new features for the 
+                                      product. I also delivered exciting oral, written and visual 
+                                      presentations about findings and contributed new processes and 
+                                      identified product and use requirements.
+                                    </p></div>
+                            <div class="col-md-3">
+                                <img src="BizAnalyst.png" style="width:100px;heigth:100px;">
+                                    <br>
+                                    Business Analyst
+                                    <br>
+                                    <br>
+                                    <p>In various organizations I have worked with multiple internal
+                                      departments to identify opportunities for improvement in business
+                                      operations and processes. I often interact with various stakeholders
+                                      and subject matter experts in order to understand their problems and 
+                                      needs of each organization while gathering, documenting, and analyzing
+                                      business needs and requirements.
+                                    </p></div>
+                            <div class="col-md-3">
+                                <img src="GIPGAP.png" style="width:100px;heigth:100px;">
+                                    <br>
+                                    Author
+                                    <br>
+                                    <br>
+                                    <p>
+                                    Co-authored two chapters on Apology, Forgiveness, and Reconciliation in
+                                    Russia and the Balkan States <a href="http://link.springer.com/chapter/10.1007/978-1-4614-5933-0_25">(ch. 25) </a> and in East Asia <a href="http://link.springer.com/chapter/10.1007/978-1-4614-5933-0_30">(ch. 30)</a>. 
+                                    </p></div>
+                            
                         </div>
                     </div>
 
-
-                    <div class="panel panel-default" id="blog">
-                    </div>
-                    <p> Here are words </p>
-
                     
                 </div>
-                <div class="col-md-3" id="feeds">
-                    <h3>Twitter</h3>
-                    <a class="twitter-timeline" href="https://twitter.com/Alex_andra_P" data-widget-id="627175062815137792">Tweets by @Alex_andra_P</a>
-                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-                </div>
+                
+
+
 
 
             </div>
