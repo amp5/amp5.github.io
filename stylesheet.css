@@ -49,4 +49,11 @@ body {
     text-align: center;
 }
 
+#header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+
 iframe[id^='twitter-widget-']{ width:100% !important;}
