@@ -1360,7 +1360,7 @@
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #f98780;
+			background-color: #282b34;
 		}
 
 		input[type="button"].style1,
@@ -1377,7 +1377,7 @@
 			input[type="reset"].style1:hover,
 			button.style1:hover,
 			.button.style1:hover {
-				background-color: #f98780;
+				background-color: #282b34;
 			}
 
 			input[type="button"].style1:active,
